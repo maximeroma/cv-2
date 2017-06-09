@@ -1,0 +1,19 @@
+footer{
+	display:flex;
+	justify-content: center;
+	
+	ul{
+		margin: auto;
+		
+		li{
+			display:inline;
+			margin-right: 2em;
+			margin-left: 2em;
+		}
+	}
+	
+	div {
+		margin-bottom: auto;
+		margin-top: auto; 
+	}
+}

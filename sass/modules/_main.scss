@@ -1,0 +1,121 @@
+#side-nav {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0;
+	
+	nav {
+		background-color: $secondary-color;
+		padding-right: 5em;
+		
+		ul {
+			
+			li {
+				margin-top : 6em;
+				margin-bottom: 6em;
+				border: 1px black solid;
+				box-shadow: 1em 1em 1em black;
+				background-color: $primary-color;
+				color: $secondary-color;
+			}
+		}
+	}	
+	
+	main {
+		margin: 4% 10% 10% 10%;
+		
+		section{
+			margin-top : 3em;
+			margin-bottom: 3em; 
+			
+			ul{
+				
+				li{
+					line-height: 2em;
+				}
+			}
+		}
+		
+		#formation {
+			border: 1px black solid;
+			
+			div:last-child {
+				display:flex;
+				
+				div{
+					
+					div{
+						
+						ul{
+							margin-top:0;
+						}						
+					}
+				}
+			}	
+			
+			#liste-formation{
+				border: 1px black solid;
+			}
+			
+			div {
+				
+				ul{
+					margin-top:0;
+					
+					li{
+						display:inline;
+					}
+				}				
+			}
+		}
+		
+		#compétences{
+			width:100%;
+			margin:0;
+			border: 1px black solid;
+			
+			div:last-child{
+				
+				div{
+					display:flex;
+					
+					div {
+						
+						ul {
+							
+							li {
+								
+								ul {
+									
+									li {
+										display:inline;
+										
+										i {
+											margin:0;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}	
+	}
+	
+	aside {
+		background-color: $secondary-color;
+		
+		ul{
+			margin-top: 2em;
+			
+			li:first-child{
+				position:relative;
+				right: 2em;
+			}
+			
+			li{
+				line-height: 4em;
+			}
+		}
+	}
+}
