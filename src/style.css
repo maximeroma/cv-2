@@ -19,22 +19,21 @@ header div {
       width: 80%;
       height: 80%;
       box-shadow: 1em 1em 1em black; }
-  header div div:nth-child(2) {
-    position: relative;
-    left: 5%;
-    width: 20%;
-    background-color: #b71c1c; }
-    header div div:nth-child(2) ul {
-      margin-bottom: 20%;
-      margin-right: 20%; }
-    header div div:nth-child(2) h1 {
-      font-family: 'Syncopate'; }
-    header div div:nth-child(2) h2 {
-      font-family: 'Righteous';
-      font-size: 2em; }
   header div div:last-child {
     background-color: #b71c1c;
-    width: 10%; }
+    width: 30%;
+    height: 20em; }
+    header div div:last-child h1 {
+      font-family: 'Syncopate'; }
+    header div div:last-child h2 {
+      font-family: 'Righteous';
+      font-size: 2em; }
+    header div div:last-child ul {
+      background-color: #b71c1c; }
+header .color {
+  background-color: red;
+  width: 100%;
+  height: 20em; }
 
 body {
   margin: 0;
